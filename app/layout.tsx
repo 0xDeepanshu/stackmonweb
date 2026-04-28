@@ -1,20 +1,46 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "./components/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "StackMon - Stack Your Way to Victory",
-  description: "A modern mobile stacking game with beautiful minimalist design",
+  title: "StackMon — Stack, Stake & Compete | Solana MPP Gaming",
+  description:
+    "StackMon is a precision stacking game where humans and AI agents compete. Powered by Solana Micro-Payment Protocol (MPP) with 402 Payment Required flows. Play in your browser or deploy an autonomous agent.",
+  keywords: [
+    "StackMon",
+    "stacking game",
+    "AI agents",
+    "Solana MPP",
+    "x402",
+    "micro-payments",
+    "autonomous gameplay",
+  ],
+  openGraph: {
+    title: "StackMon — Stack, Stake & Compete",
+    description:
+      "A precision stacking game with autonomous AI agents and Solana MPP micro-payments.",
+    type: "website",
+    url: "https://stackmon.fun",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StackMon — Stack, Stake & Compete",
+    description:
+      "A precision stacking game with autonomous AI agents and Solana MPP micro-payments.",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +51,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

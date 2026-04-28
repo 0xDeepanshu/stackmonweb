@@ -1,193 +1,463 @@
 import Image from "next/image";
+import Link from "next/link";
+import {
+  StackIcon,
+  BoltIcon,
+  SparklesIcon,
+  TrophyIcon,
+  CpuIcon,
+  WalletIcon,
+  GamepadIcon,
+  ArrowRightIcon,
+  ShieldIcon,
+  GlobeIcon,
+  ClockIcon,
+  CoinsIcon,
+} from "./components/Icons";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#F7F9FF] font-sans">
+    <div className="min-h-screen bg-background font-sans">
       <main className="flex flex-col">
-        {/* Hero Section */}
-        <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 py-20">
-          {/* Background Elements */}
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-secondary/20 rounded-full blur-3xl" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-primary/10 to-secondary/10 rounded-full blur-3xl" />
+        {/* ====== HERO SECTION ====== */}
+        <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 pt-24 pb-20 grid-pattern">
+          {/* Background Orbs */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-primary/8 rounded-full blur-[120px]" />
+            <div className="absolute bottom-1/4 -right-32 w-[400px] h-[400px] bg-secondary/6 rounded-full blur-[120px]" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gradient-to-tr from-primary/4 to-secondary/4 rounded-full blur-[150px]" />
           </div>
 
-          {/* Pillars - Abstract */}
-          <div className="absolute left-10 top-1/3 w-2 h-64 bg-gradient-to-b from-primary/20 to-transparent rounded-full" />
-          <div className="absolute right-10 top-1/4 w-2 h-80 bg-gradient-to-b from-secondary/20 to-transparent rounded-full" />
-          <div className="absolute right-20 bottom-32 w-1.5 h-48 bg-gradient-to-b from-primary/15 to-transparent rounded-full" />
+          {/* Floating Accent Lines */}
+          <div className="absolute left-16 top-1/3 w-px h-64 bg-gradient-to-b from-primary/20 to-transparent hidden lg:block" />
+          <div className="absolute right-16 top-1/4 w-px h-80 bg-gradient-to-b from-secondary/15 to-transparent hidden lg:block" />
+
+          {/* Orbiting particles */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] pointer-events-none">
+            <div className="animate-orbit absolute top-1/2 left-1/2">
+              <div className="glow-dot" />
+            </div>
+            <div className="animate-orbit absolute top-1/2 left-1/2" style={{ animationDelay: "-7s", animationDuration: "25s" }}>
+              <div className="w-4 h-4 rounded-full bg-primary/20 border border-primary/30" />
+            </div>
+            <div className="animate-orbit absolute top-1/2 left-1/2" style={{ animationDelay: "-14s", animationDuration: "30s" }}>
+              <div className="w-3 h-3 rounded-full bg-secondary/15 border border-secondary/25" />
+            </div>
+          </div>
 
           {/* Hero Content */}
-          <div className="relative z-10 flex flex-col items-center text-center max-w-3xl">
-            <div className="animate-float mb-8">
-              <div className="relative">
-                {/* Stack Icon - 3 layered blocks */}
-                <div className="flex flex-col items-center gap-1">
-                  <div className="w-20 h-8 bg-gradient-to-br from-primary to-primary/70 rounded-lg shadow-lg shadow-primary/30 transform rotate-3" />
-                  <div className="w-24 h-10 bg-gradient-to-br from-primary to-[#6C63FF] rounded-lg shadow-lg shadow-primary/40 transform -translate-y-1" />
-                  <div className="w-28 h-12 bg-gradient-to-br from-[#6C63FF] to-primary rounded-xl shadow-xl shadow-primary/50 transform rotate-2" />
-                </div>
-                {/* Glow ring */}
-                <div className="absolute -inset-4 border-2 border-primary/20 rounded-full animate-pulse-soft" />
+          <div className="relative z-10 flex flex-col items-center text-center max-w-4xl">
+            {/* Badge */}
+            <div className="animate-slide-up mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-sm text-foreground-muted">
+                <div className="w-2 h-2 rounded-full bg-secondary animate-pulse-soft" />
+                <span>Now live — Agents can play for you</span>
               </div>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            {/* Stacking Icon */}
+            <div className="animate-float mb-10 animate-slide-up" style={{ animationDelay: "100ms" }}>
+              <div className="relative">
+                <div className="flex flex-col items-center gap-1.5">
+                  <div className="w-16 h-6 bg-gradient-to-br from-primary/60 to-primary/40 rounded-lg shadow-lg shadow-primary/20 transform rotate-2" />
+                  <div className="w-20 h-8 bg-gradient-to-br from-primary to-primary/70 rounded-lg shadow-lg shadow-primary/30" />
+                  <div className="w-24 h-10 bg-gradient-to-br from-primary via-primary to-secondary/60 rounded-xl shadow-xl shadow-primary/40 transform -rotate-1" />
+                </div>
+                <div className="absolute -inset-6 border border-primary/15 rounded-full animate-pulse-glow" />
+                <div className="absolute -inset-12 border border-secondary/8 rounded-full animate-pulse-soft" />
+              </div>
+            </div>
+
+            <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6 tracking-tight animate-slide-up" style={{ animationDelay: "200ms" }}>
               <span className="gradient-text">StackMon</span>
             </h1>
-            
-            <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-xl">
-              Stack your way to victory in this beautifully crafted minimalist mobile game
+
+            <p className="text-lg md:text-xl text-foreground-muted mb-4 max-w-2xl animate-slide-up leading-relaxed" style={{ animationDelay: "300ms" }}>
+              A precision stacking game where every block matters. Compete against players worldwide, stake on your skills, and let AI agents play on your behalf.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-4 rounded-full gradient-bg text-white font-semibold shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all hover:-translate-y-1">
-                Download Now
-              </button>
-              <button className="px-8 py-4 rounded-full bg-white/60 glass text-gray-700 font-semibold hover:bg-white/80 transition-all hover:-translate-y-1">
-                Learn More
-              </button>
+            <p className="text-sm text-foreground-muted/60 mb-10 animate-slide-up" style={{ animationDelay: "350ms" }}>
+              Powered by <span className="text-primary-light font-medium">Solana MPP</span> · <span className="text-secondary font-medium">x402</span> · <span className="text-foreground-muted font-medium">Devnet</span>
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 animate-slide-up" style={{ animationDelay: "400ms" }}>
+              <a href="https://stackmon.fun" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                <span className="flex items-center gap-2">
+                  <GamepadIcon className="w-5 h-5" />
+                  Play Now
+                </span>
+              </a>
+              <Link href="/agents" className="btn-secondary">
+                <CpuIcon className="w-5 h-5" />
+                AI Agent Mode
+              </Link>
             </div>
+          </div>
+
+          {/* Scroll indicator */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-foreground-muted/40 animate-float-slow">
+            <span className="text-xs tracking-widest uppercase">Scroll</span>
+            <div className="w-px h-8 bg-gradient-to-b from-foreground-muted/30 to-transparent" />
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="py-24 px-6">
+        {/* ====== HERO IMAGE SECTION ====== */}
+        {/* <section className="relative py-8 px-6">
           <div className="max-w-5xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden glow-primary">
+              <Image
+                src="/hero-game.png"
+                alt="StackMon game - neon blocks stacking in a dark void with glowing particle effects"
+                width={1200}
+                height={600}
+                className="w-full h-auto object-cover rounded-2xl"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+            </div>
+          </div>
+        </section> */}
+
+        {/* ====== HOW IT WORKS ====== */}
+        <section className="py-24 px-6 relative" id="how-it-works">
+          <div className="section-divider mb-24" />
+          <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4">
-                <span className="gradient-text">Beautiful Design</span>
+              <p className="text-sm uppercase tracking-widest text-primary-light mb-3 font-medium">How It Works</p>
+              <h2 className="text-3xl md:text-5xl font-bold mb-5">
+                Stack. Compete. <span className="gradient-text">Earn.</span>
               </h2>
-              <p className="text-gray-600 text-lg">Crafted with attention to every detail</p>
+              <p className="text-foreground-muted text-lg max-w-xl mx-auto">
+                StackMon is a precision stacking game built for the agentic era.
+                Every match is a chance to prove your skill — or your agent&apos;s.
+              </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
-                  title: "Minimalist UI",
-                  desc: "Clean, elegant interface that puts gameplay first",
-                  icon: "◈",
+                  icon: <StackIcon className="w-6 h-6 text-primary-light" />,
+                  title: "Stack Blocks",
+                  desc: "Tap to place blocks with perfect precision. The more accurate your placement, the higher your score. Miss too many and the tower falls.",
+                  step: "01",
                 },
                 {
-                  title: "Smooth Controls",
-                  desc: "Intuitive touch controls for seamless stacking",
-                  icon: "◇",
+                  icon: <TrophyIcon className="w-6 h-6 text-secondary" />,
+                  title: "Compete & Stake",
+                  desc: "Enter matches with a micro-stake via Solana MPP. Win the round and claim your opponent's stake. Seamless 402 Payment Required flows.",
+                  step: "02",
                 },
                 {
-                  title: "Stunning Visuals",
-                  desc: "Beautiful gradients and glassmorphism effects",
-                  icon: "○",
+                  icon: <CpuIcon className="w-6 h-6 text-accent" />,
+                  title: "Deploy Your Agent",
+                  desc: "Can't play right now? Deploy an autonomous AI agent that plays via long-polling, signs Solana transactions, and competes 24/7 on your behalf.",
+                  step: "03",
                 },
               ].map((feature, i) => (
                 <div
                   key={i}
-                  className="glass rounded-2xl p-8 hover:scale-[1.02] transition-transform"
+                  className="glass-card rounded-2xl p-8 relative group"
                 >
-                  <div className="text-4xl mb-4 gradient-text">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+                  <div className="absolute top-6 right-6 text-5xl font-bold text-primary/5 group-hover:text-primary/10 transition-colors">
+                    {feature.step}
+                  </div>
+                  <div className="icon-container mb-5">{feature.icon}</div>
+                  <h3 className="text-xl font-semibold mb-3 text-foreground">{feature.title}</h3>
+                  <p className="text-foreground-muted leading-relaxed">{feature.desc}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Mobile Mockup Section */}
+        {/* ====== GAME FEATURES ====== */}
         <section className="py-24 px-6 relative overflow-hidden">
-          <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16">
-            <div className="flex-1 text-center md:text-left">
-              <h2 className="text-4xl font-bold mb-4">
-                <span className="gradient-text">Play Anywhere</span>
-              </h2>
-              <p className="text-gray-600 text-lg mb-8">
-                Experience the joy of stacking on your mobile device. Beautiful on every screen, 
-                optimized for smooth performance.
-              </p>
-              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                <div className="glass rounded-full px-6 py-3 flex items-center gap-2">
-                  <span className="text-2xl">◉</span>
-                  <span className="font-medium">Casual Mode</span>
-                </div>
-                <div className="glass rounded-full px-6 py-3 flex items-center gap-2">
-                  <span className="text-2xl">◎</span>
-                  <span className="font-medium">Challenge</span>
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center gap-16">
+              {/* Left content */}
+              <div className="flex-1 max-w-lg">
+                <p className="text-sm uppercase tracking-widest text-secondary mb-3 font-medium">The Game</p>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                  Precision <span className="gradient-text">Stacking</span><br />
+                  Meets Web3
+                </h2>
+                <p className="text-foreground-muted text-lg mb-8 leading-relaxed">
+                  StackMon reimagines the classic stacking game for the Solana ecosystem.
+                  Built with Unity WebGL and powered by the Micro-Payment Protocol.
+                  Play from your browser — no downloads required.
+                </p>
+
+                <div className="space-y-4">
+                  {[
+                    { icon: <BoltIcon className="w-5 h-5 text-secondary" />, text: "Instant browser-based gameplay — no installs" },
+                    { icon: <SparklesIcon className="w-5 h-5 text-primary-light" />, text: "Beautiful visuals with smooth 60fps performance" },
+                    { icon: <ShieldIcon className="w-5 h-5 text-accent" />, text: "Secure settlements via Solana MPP on Devnet" },
+                    { icon: <GlobeIcon className="w-5 h-5 text-secondary" />, text: "Global leaderboard with real-time rankings" },
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4 group">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-surface-card flex items-center justify-center border border-border group-hover:border-primary/20 transition-colors">
+                        {item.icon}
+                      </div>
+                      <span className="text-foreground-muted">{item.text}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
-            </div>
 
-            <div className="flex-1 flex justify-center">
-              <div className="relative">
-                {/* Phone Mockup */}
-                <div className="w-48 h-96 rounded-[3rem] bg-gray-900 p-3 shadow-2xl">
-                  <div className="w-full h-full rounded-[2.5rem] bg-[#F7F9FF] overflow-hidden relative">
-                    {/* Screen content */}
-                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
-                      <div className="flex flex-col items-center gap-1 mb-8">
-                        <div className="w-12 h-5 bg-primary/70 rounded-md" />
-                        <div className="w-14 h-6 bg-primary rounded-md" />
-                        <div className="w-16 h-7 bg-primary/80 rounded-lg" />
+              {/* Right - Phone mockup */}
+              <div className="flex-1 flex justify-center">
+                <div className="relative">
+                  <div className="w-56 h-[440px] rounded-[3rem] bg-surface-card p-3 shadow-2xl glow-primary border border-border">
+                    <div className="w-full h-full rounded-[2.5rem] bg-surface overflow-hidden relative">
+                      {/* Screen content - game preview */}
+                      <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+                        <div className="flex flex-col items-center gap-1.5 mb-6">
+                          <div className="w-10 h-4 bg-primary/50 rounded-md animate-float-slow" style={{ animationDelay: "0s" }} />
+                          <div className="w-12 h-5 bg-primary/70 rounded-md animate-float-slow" style={{ animationDelay: "0.3s" }} />
+                          <div className="w-14 h-5 bg-primary/80 rounded-md animate-float-slow" style={{ animationDelay: "0.6s" }} />
+                          <div className="w-16 h-6 bg-primary rounded-lg animate-float-slow" style={{ animationDelay: "0.9s" }} />
+                          <div className="w-14 h-5 bg-gradient-to-r from-primary to-secondary/60 rounded-md animate-float-slow" style={{ animationDelay: "1.2s" }} />
+                        </div>
+                        <div className="text-xs text-foreground-muted/40 font-medium tracking-wider">SCORE: 2,847</div>
+                        <div className="mt-3 w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full" />
                       </div>
-                      <div className="text-xs text-gray-400">StackMon</div>
+                      {/* Notch */}
+                      <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-surface-card rounded-full" />
                     </div>
-                    {/* Notch */}
-                    <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-gray-900 rounded-full" />
                   </div>
+                  {/* Decorative rings */}
+                  <div className="absolute -inset-4 border border-primary/10 rounded-[3rem] animate-pulse-soft" />
+                  <div className="absolute -inset-8 border border-secondary/5 rounded-[3.5rem]" />
                 </div>
-                {/* Decorative rings */}
-                <div className="absolute -inset-4 border border-primary/20 rounded-[3rem]" />
-                <div className="absolute -inset-8 border border-secondary/10 rounded-[3.5rem]" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* Stats Section */}
+        {/* ====== PAYMENTS / x402 SECTION ====== */}
+        <section className="py-24 px-6 relative" id="payments">
+          <div className="section-divider mb-24" />
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col-reverse lg:flex-row items-center gap-16">
+              {/* Left - Image */}
+              <div className="flex-1">
+                <div className="relative rounded-2xl overflow-hidden glow-secondary">
+                  <Image
+                    src="/payment-network.png"
+                    alt="x402 payment network visualization with stablecoin flows"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover rounded-2xl"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-transparent" />
+                </div>
+              </div>
+
+              {/* Right content */}
+              <div className="flex-1 max-w-lg">
+                <p className="text-sm uppercase tracking-widest text-secondary mb-3 font-medium">Payments</p>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                  Solana <span className="gradient-text">MPP</span><br />
+                  + x402 Flows
+                </h2>
+                <p className="text-foreground-muted text-lg mb-8 leading-relaxed">
+                  StackMon uses the Solana Micro-Payment Protocol with HTTP 402 Payment Required flows.
+                  Connect Phantom or Solflare, and micro-transactions happen seamlessly via the <code className="text-secondary">@solana/mpp</code> SDK.
+                </p>
+
+                <div className="space-y-5">
+                  {[
+                    {
+                      icon: <WalletIcon className="w-5 h-5 text-secondary" />,
+                      title: "Phantom & Solflare",
+                      desc: "Connect your Solana wallet with custom-styled wallet UI components. No signups required.",
+                    },
+                    {
+                      icon: <ClockIcon className="w-5 h-5 text-primary-light" />,
+                      title: "HTTP 402 Flows",
+                      desc: "Endpoints return 402 Payment Required → wallet signs → access granted. Frictionless.",
+                    },
+                    {
+                      icon: <CoinsIcon className="w-5 h-5 text-accent" />,
+                      title: "Micro-Payments",
+                      desc: "Pay for data and actions with SOL micro-transactions. Agents auto-fund from their own wallets.",
+                    },
+                  ].map((item, i) => (
+                    <div key={i} className="glass-card rounded-xl p-5 flex items-start gap-4">
+                      <div className="icon-container flex-shrink-0 !w-10 !h-10 !rounded-xl">
+                        {item.icon}
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">{item.title}</h4>
+                        <p className="text-sm text-foreground-muted leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ====== MCP + AGENT TEASER ====== */}
+        <section className="py-24 px-6 relative" id="agents">
+          <div className="section-divider mb-24" />
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center gap-16">
+              {/* Left content */}
+              <div className="flex-1 max-w-lg">
+                <p className="text-sm uppercase tracking-widest text-accent mb-3 font-medium">AI Agents</p>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                  Your Agent<br />
+                  <span className="gradient-text">Plays For You</span>
+                </h2>
+                <p className="text-foreground-muted text-lg mb-8 leading-relaxed">
+                  Deploy an autonomous AI agent that interacts with the Unity game via long-polling, executes predefined skills, and auto-funds actions using its own Solana wallet.
+                </p>
+
+                <div className="code-block mb-8">
+                  <span className="comment">{"// Agent long-polls for game state"}</span><br />
+                  <span className="keyword">{"const"}</span> agent = <span className="keyword">{"await"}</span> initAgent({"{"}<br />
+                  &nbsp;&nbsp;wallet: <span className="string">{'"AGENT_WALLET_PRIVATE_KEY"'}</span>,<br />
+                  &nbsp;&nbsp;rpc: <span className="string">{'"devnet"'}</span>,<br />
+                  {"}"}); <br />
+                  <span className="keyword">{"await"}</span> agent.<span className="string">startLoop</span>();<br />
+                  <span className="comment">{"// Signs txns + plays via skills 24/7"}</span>
+                </div>
+
+                <Link
+                  href="/agents"
+                  className="btn-primary inline-flex"
+                >
+                  <span className="flex items-center gap-2">
+                    Learn About AI Agents
+                    <ArrowRightIcon className="w-4 h-4" />
+                  </span>
+                </Link>
+              </div>
+
+              {/* Right - Image */}
+              <div className="flex-1">
+                <div className="relative rounded-2xl overflow-hidden glow-primary">
+                  <Image
+                    src="/agent-gameplay.png"
+                    alt="AI agent playing StackMon autonomously with data analytics overlay"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover rounded-2xl"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-l from-background/50 via-transparent to-transparent" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ====== STATS ====== */}
         <section className="py-20 px-6">
+          <div className="section-divider mb-20" />
           <div className="max-w-4xl mx-auto">
-            <div className="glass rounded-3xl p-12 flex flex-wrap justify-center gap-12">
+            <div className="glass-card rounded-3xl p-12 flex flex-wrap justify-center gap-12 md:gap-16">
               {[
-                { value: "1M+", label: "Downloads" },
-                { value: "4.8★", label: "App Rating" },
-                { value: "50+", label: "Countries" },
+                { value: "10K+", label: "Matches Played" },
+                { value: "<1s", label: "Settlement Time" },
+                { value: "$0.00", label: "Protocol Fees" },
+                { value: "24/7", label: "Agent Uptime" },
               ].map((stat, i) => (
                 <div key={i} className="text-center">
-                  <div className="text-4xl font-bold gradient-text mb-2">{stat.value}</div>
-                  <div className="text-gray-500">{stat.label}</div>
+                  <div className="text-3xl md:text-4xl font-bold gradient-text mb-2 font-mono">
+                    {stat.value}
+                  </div>
+                  <div className="text-sm text-foreground-muted">{stat.label}</div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* ====== CTA ====== */}
         <section className="py-24 px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="glass-dark rounded-3xl p-16 relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5" />
+            <div className="glass-card rounded-3xl p-12 md:p-16 relative overflow-hidden">
+              {/* Background glow */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+
               <div className="relative z-10">
-                <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">
                   Ready to <span className="gradient-text">Stack</span>?
                 </h2>
-                <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto">
-                  Join millions of players worldwide. Download StackMon today and start stacking!
+                <p className="text-foreground-muted text-lg mb-8 max-w-md mx-auto leading-relaxed">
+                  Jump into a match right now. No download needed.
+                  Connect Phantom or Solflare and start stacking.
                 </p>
-                <button className="px-10 py-5 rounded-full gradient-bg text-white font-semibold text-lg shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all hover:-translate-y-1">
-                  Download for Free
-                </button>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a
+                    href="https://stackmon.fun"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary"
+                  >
+                    <span className="flex items-center gap-2">
+                      <GamepadIcon className="w-5 h-5" />
+                      Start Playing
+                    </span>
+                  </a>
+                  <Link href="/agents" className="btn-secondary">
+                    <CpuIcon className="w-5 h-5" />
+                    Deploy Agent
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="py-8 px-6 border-t border-gray-200/50">
-          <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-gray-500">© 2025 StackMon. All rights reserved.</div>
-            <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Privacy</a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Terms</a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">Contact</a>
+        {/* ====== FOOTER ====== */}
+        <footer className="py-12 px-6 border-t border-border">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
+              {/* Logo */}
+              <div>
+                <div className="flex items-center gap-2.5 mb-3">
+                  <div className="flex flex-col items-center gap-0.5">
+                    <div className="w-3 h-1 bg-primary/70 rounded-sm transform rotate-2" />
+                    <div className="w-4 h-1.5 bg-primary rounded-sm" />
+                    <div className="w-5 h-2 bg-gradient-to-r from-primary to-secondary rounded-sm transform -rotate-1" />
+                  </div>
+                  <span className="text-lg font-bold gradient-text">StackMon</span>
+                </div>
+                <p className="text-sm text-foreground-muted max-w-xs">
+                  A precision stacking game powered by Solana MPP and autonomous AI agents.
+                </p>
+              </div>
+
+              {/* Links */}
+              <div className="flex gap-12">
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground mb-3">Product</h4>
+                  <div className="flex flex-col gap-2">
+                    <a href="https://stackmon.fun" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground-muted hover:text-primary-light transition-colors">Play Game</a>
+                    <Link href="/agents" className="text-sm text-foreground-muted hover:text-primary-light transition-colors">AI Agents</Link>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground mb-3">Resources</h4>
+                  <div className="flex flex-col gap-2">
+                    <a href="https://github.com/solana-labs/mpp" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground-muted hover:text-primary-light transition-colors">Solana MPP</a>
+                    <a href="https://x402.org" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground-muted hover:text-primary-light transition-colors">x402 Protocol</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="section-divider mb-6" />
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <div className="text-sm text-foreground-muted/50">© 2025 StackMon. All rights reserved.</div>
+              <div className="flex gap-6">
+                <a href="#" className="text-sm text-foreground-muted/50 hover:text-foreground-muted transition-colors">Privacy</a>
+                <a href="#" className="text-sm text-foreground-muted/50 hover:text-foreground-muted transition-colors">Terms</a>
+              </div>
             </div>
           </div>
         </footer>
