@@ -77,7 +77,7 @@ export default function Home() {
             </p>
 
             <p className="text-sm text-foreground-muted/60 mb-10 animate-slide-up" style={{ animationDelay: "350ms" }}>
-              Powered by <span className="text-primary-light font-medium">Solana MPP</span> · <span className="text-secondary font-medium">x402</span> · <span className="text-foreground-muted font-medium">Devnet</span>
+              Powered by <span className="text-primary-light font-medium">Solana Blinks on Steroids</span> · <span className="text-secondary font-medium">MPP</span> · <span className="text-foreground-muted font-medium">Devnet</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-slide-up" style={{ animationDelay: "400ms" }}>
