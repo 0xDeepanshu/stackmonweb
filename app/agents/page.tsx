@@ -73,18 +73,55 @@ export default function AgentsPage() {
                 </div>
               </div>
 
-              {/* Hero image */}
+              {/* Hero Animated Workflow Visual */}
               <div className="flex-1">
-                <div className="relative rounded-2xl overflow-hidden glow-primary">
-                  <Image
-                    src="/agent-gameplay.png"
-                    alt="AI agent autonomously playing StackMon with analytics overlay"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover rounded-2xl"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+                <div className="relative w-full aspect-square md:aspect-[4/3] rounded-2xl glass-card overflow-hidden glow-primary flex items-center justify-center p-8 border border-primary/20">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
+                  
+                  {/* Neural Grid Background */}
+                  <div className="absolute inset-0 opacity-20 grid-pattern" />
+
+                  <div className="relative w-full h-full flex flex-col items-center justify-between z-10">
+                    {/* Top: Brain/Agent */}
+                    <div className="relative animate-float">
+                      <div className="w-20 h-20 rounded-2xl glass flex items-center justify-center animate-pulse-glow shadow-[0_0_40px_rgba(139,124,255,0.4)] border border-primary/50 relative z-10">
+                        <BrainIcon className="w-10 h-10 text-primary" />
+                      </div>
+                      {/* Radiating rings */}
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 border border-primary/30 rounded-full animate-ping" style={{ animationDuration: '3s' }} />
+                    </div>
+
+                    {/* Data Flow (Vertical lines) */}
+                    <div className="flex-1 flex gap-12 relative my-4">
+                      {/* Left flow */}
+                      <div className="w-[2px] h-full bg-gradient-to-b from-primary/30 to-accent/30 relative overflow-hidden rounded-full">
+                        <div className="w-full h-full bg-gradient-to-b from-transparent via-primary to-transparent animate-shimmer" style={{ backgroundSize: '100% 200%', animationDuration: '2s' }} />
+                      </div>
+                      {/* Right flow */}
+                      <div className="w-[2px] h-full bg-gradient-to-b from-primary/30 to-secondary/30 relative overflow-hidden rounded-full">
+                         <div className="w-full h-full bg-gradient-to-t from-transparent via-secondary to-transparent animate-shimmer delay-300" style={{ backgroundSize: '100% 200%', animationDuration: '2s' }} />
+                      </div>
+                    </div>
+
+                    {/* Bottom: Game/Action */}
+                    <div className="w-full flex justify-between items-end relative px-4">
+                      {/* Left: Blockchain/MPP */}
+                      <div className="flex flex-col items-center gap-3 animate-float delay-100">
+                        <div className="w-16 h-16 rounded-full glass flex items-center justify-center border border-accent/40 shadow-[0_0_20px_rgba(255,107,157,0.3)]">
+                          <WalletIcon className="w-7 h-7 text-accent" />
+                        </div>
+                        <div className="text-xs font-mono text-accent/80 glass px-2 py-1 rounded">SIGN TX</div>
+                      </div>
+
+                      {/* Right: Unity WebGL */}
+                      <div className="flex flex-col items-center gap-3 animate-float delay-300">
+                        <div className="w-16 h-16 rounded-xl glass flex items-center justify-center border border-secondary/40 shadow-[0_0_20px_rgba(0,245,212,0.3)]">
+                          <GamepadIcon className="w-7 h-7 text-secondary" />
+                        </div>
+                        <div className="text-xs font-mono text-secondary/80 glass px-2 py-1 rounded">PLAY BLOCK</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -172,17 +209,58 @@ export default function AgentsPage() {
           <div className="section-divider mb-24" />
           <div className="max-w-5xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-16">
-              {/* Payment visual */}
+              {/* Payment Visual - Animated Flow */}
               <div className="flex-1">
-                <div className="relative rounded-2xl overflow-hidden glow-secondary">
-                  <Image
-                    src="/payment-network.png"
-                    alt="Solana MPP payment flow visualization"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover rounded-2xl"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-transparent to-transparent" />
+                <div className="relative w-full aspect-video rounded-2xl glass-card overflow-hidden glow-secondary flex items-center justify-center border border-secondary/20 p-6 md:p-8">
+                  <div className="absolute inset-0 bg-gradient-to-tr from-secondary/10 via-transparent to-accent/10" />
+                  
+                  <div className="relative w-full h-full flex items-center justify-between">
+                    {/* Left: Agent */}
+                    <div className="flex flex-col items-center gap-3 z-10 animate-float delay-100">
+                      <div className="w-16 h-16 rounded-full glass flex items-center justify-center border border-primary/50 shadow-[0_0_20px_rgba(139,124,255,0.4)]">
+                        <CpuIcon className="w-8 h-8 text-primary" />
+                      </div>
+                      <div className="text-xs font-mono text-primary-light glass px-2 py-1 rounded">AGENT</div>
+                    </div>
+
+                    {/* Middle: Data lines */}
+                    <div className="flex-1 relative h-32 flex flex-col justify-between px-4">
+                      {/* Top line: Request */}
+                      <div className="w-full relative">
+                        <div className="absolute left-1/2 -translate-x-1/2 -top-5 text-[10px] font-mono text-primary/70">1. GET /api/game</div>
+                        <div className="w-full h-[2px] rounded-full bg-primary/10 overflow-hidden">
+                           <div className="h-full w-full bg-gradient-to-r from-transparent via-primary/80 to-transparent animate-shimmer" style={{ backgroundSize: '200% 100%', animationDuration: '2s' }} />
+                        </div>
+                      </div>
+                      {/* Middle line: 402 Response */}
+                      <div className="w-full relative">
+                        <div className="absolute left-1/2 -translate-x-1/2 -top-5 text-[10px] font-mono text-accent/70">2. HTTP 402 REQ</div>
+                        <div className="w-full h-[2px] rounded-full bg-accent/10 overflow-hidden">
+                           <div className="h-full w-full bg-gradient-to-l from-transparent via-accent/80 to-transparent animate-shimmer delay-100" style={{ backgroundSize: '200% 100%', animationDuration: '2s' }} />
+                        </div>
+                      </div>
+                      {/* Bottom line: Payment */}
+                      <div className="w-full relative">
+                        <div className="absolute left-1/2 -translate-x-1/2 -top-5 text-[10px] font-mono text-secondary/70">3. MPP TX SIGNED</div>
+                        <div className="w-full h-[2px] rounded-full bg-secondary/10 overflow-hidden">
+                           <div className="h-full w-full bg-gradient-to-r from-transparent via-secondary/80 to-transparent animate-shimmer delay-200" style={{ backgroundSize: '200% 100%', animationDuration: '2s' }} />
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Right: API Server */}
+                    <div className="flex flex-col items-center gap-3 z-10 animate-float delay-300">
+                      <div className="w-16 h-16 rounded-xl glass flex items-center justify-center border border-secondary/50 shadow-[0_0_20px_rgba(0,245,212,0.4)]">
+                        <BoltIcon className="w-8 h-8 text-secondary" />
+                      </div>
+                      <div className="text-xs font-mono text-secondary glass px-2 py-1 rounded">BACKEND</div>
+                    </div>
+                  </div>
+                  
+                  {/* Floating particles */}
+                  <div className="absolute top-1/4 left-1/4 w-2 h-2 rounded-full bg-primary/40 animate-pulse-soft" />
+                  <div className="absolute bottom-1/4 right-1/4 w-3 h-3 rounded-full bg-secondary/40 animate-pulse-soft delay-200" />
+                  <div className="absolute top-1/2 left-1/2 w-1.5 h-1.5 rounded-full bg-accent/40 animate-pulse-soft delay-500" />
                 </div>
               </div>
 

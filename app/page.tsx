@@ -101,22 +101,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ====== HERO IMAGE SECTION ====== */}
-        {/* <section className="relative py-8 px-6">
-          <div className="max-w-5xl mx-auto">
-            <div className="relative rounded-2xl overflow-hidden glow-primary">
-              <Image
-                src="/hero-game.png"
-                alt="StackMon game - neon blocks stacking in a dark void with glowing particle effects"
-                width={1200}
-                height={600}
-                className="w-full h-auto object-cover rounded-2xl"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
-            </div>
-          </div>
-        </section> */}
+
 
         {/* ====== HOW IT WORKS ====== */}
         <section className="py-24 px-6 relative" id="how-it-works">
@@ -239,17 +224,40 @@ export default function Home() {
           <div className="section-divider mb-24" />
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col-reverse lg:flex-row items-center gap-16">
-              {/* Left - Image */}
+              {/* Left - Animated Payment Network Visual */}
               <div className="flex-1">
-                <div className="relative rounded-2xl overflow-hidden glow-secondary">
-                  <Image
-                    src="/payment-network.png"
-                    alt="x402 payment network visualization with stablecoin flows"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover rounded-2xl"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-transparent" />
+                <div className="relative w-full aspect-video rounded-2xl glass-card overflow-hidden glow-secondary flex items-center justify-center border border-secondary/20">
+                  <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 via-transparent to-primary/10" />
+                  
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    {/* Center Node */}
+                    <div className="absolute z-20 w-20 h-20 rounded-full glass flex items-center justify-center animate-pulse-glow border border-secondary/40 shadow-[0_0_30px_rgba(0,245,212,0.4)]">
+                      <WalletIcon className="w-8 h-8 text-secondary" />
+                    </div>
+
+                    {/* Orbiting rings */}
+                    <div className="absolute w-48 h-48 rounded-full border border-dashed border-foreground-muted/20 animate-spin-slow" />
+                    <div className="absolute w-64 h-64 rounded-full border border-dashed border-secondary/20 animate-spin-slow" style={{ animationDirection: "reverse", animationDuration: "40s" }} />
+
+                    {/* Orbiting nodes container */}
+                    <div className="absolute w-64 h-64 pointer-events-none">
+                      <div className="animate-orbit absolute top-1/2 left-1/2" style={{ animationDuration: "20s" }}>
+                        <div className="w-12 h-12 -ml-6 -mt-6 rounded-full glass-card flex items-center justify-center border border-primary/30 text-primary">
+                          <StackIcon className="w-5 h-5" />
+                        </div>
+                      </div>
+                      <div className="animate-orbit absolute top-1/2 left-1/2" style={{ animationDelay: "-6.6s", animationDuration: "20s" }}>
+                        <div className="w-10 h-10 -ml-5 -mt-5 rounded-full glass-card flex items-center justify-center border border-accent/30 text-accent">
+                          <BoltIcon className="w-5 h-5" />
+                        </div>
+                      </div>
+                      <div className="animate-orbit absolute top-1/2 left-1/2" style={{ animationDelay: "-13.3s", animationDuration: "20s" }}>
+                        <div className="w-14 h-14 -ml-7 -mt-7 rounded-full glass-card flex items-center justify-center border border-secondary/30 text-secondary">
+                          <CoinsIcon className="w-6 h-6" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -336,17 +344,52 @@ export default function Home() {
                 </Link>
               </div>
 
-              {/* Right - Image */}
+              {/* Right - Animated Agent Dashboard Visual */}
               <div className="flex-1">
-                <div className="relative rounded-2xl overflow-hidden glow-primary">
-                  <Image
-                    src="/agent-gameplay.png"
-                    alt="AI agent playing StackMon autonomously with data analytics overlay"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover rounded-2xl"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-l from-background/50 via-transparent to-transparent" />
+                <div className="relative w-full aspect-square md:aspect-video lg:aspect-square rounded-2xl glass-card overflow-hidden glow-primary border border-primary/20 p-6 flex flex-col gap-4">
+                  {/* Dashboard Header */}
+                  <div className="flex items-center justify-between border-b border-primary/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 rounded-full bg-secondary animate-pulse" />
+                      <span className="text-sm font-mono text-primary-light">AGENT_0x7F...9A</span>
+                    </div>
+                    <div className="text-xs font-mono text-accent glass px-2 py-1 rounded-md">LIVE</div>
+                  </div>
+
+                  {/* Dashboard Content */}
+                  <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {/* Left Column: Stats & Graph */}
+                    <div className="flex flex-col gap-4">
+                      <div className="glass rounded-xl p-4 border border-primary/10">
+                        <div className="text-xs text-foreground-muted mb-1">Win Rate</div>
+                        <div className="text-2xl font-bold text-secondary">78.4%</div>
+                        <div className="mt-2 h-1.5 w-full bg-surface-card rounded-full overflow-hidden">
+                          <div className="h-full bg-secondary w-[78.4%] rounded-full shadow-[0_0_10px_rgba(0,245,212,0.5)]" />
+                        </div>
+                      </div>
+                      <div className="glass rounded-xl p-4 border border-primary/10 flex-1 relative overflow-hidden flex items-end gap-2">
+                        {/* Animated Bar Chart */}
+                        <div className="w-full h-[60%] bg-primary/40 rounded-t-sm animate-pulse-soft delay-100" />
+                        <div className="w-full h-[80%] bg-primary/60 rounded-t-sm animate-pulse-soft delay-200" />
+                        <div className="w-full h-[40%] bg-primary/30 rounded-t-sm animate-pulse-soft delay-300" />
+                        <div className="w-full h-[90%] bg-primary/80 rounded-t-sm animate-pulse-soft delay-400" />
+                        <div className="w-full h-[70%] bg-primary/50 rounded-t-sm animate-pulse-soft delay-500" />
+                      </div>
+                    </div>
+
+                    {/* Right Column: Terminal */}
+                    <div className="glass rounded-xl p-4 border border-primary/10 flex flex-col font-mono text-xs overflow-hidden relative">
+                      <div className="absolute top-0 left-0 w-full h-8 bg-gradient-to-b from-surface-card to-transparent z-10" />
+                      <div className="flex flex-col gap-3 mt-auto animate-slide-up">
+                        <div className="text-foreground-muted">{">"} scanning state...</div>
+                        <div className="text-primary-light">{"[OK] target identified"}</div>
+                        <div className="text-foreground-muted">{">"} computing trajectory...</div>
+                        <div className="text-secondary">{"[ACTION] PLACED @ x:42"}</div>
+                        <div className="text-accent">{"[REWARD] +150 pts"}</div>
+                        <div className="text-foreground-muted flex items-center gap-1">{">"} await block<span className="w-1.5 h-3 bg-primary animate-pulse" /></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
