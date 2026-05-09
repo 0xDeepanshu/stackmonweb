@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 
 export default function AgentsPage() {
   return (
-    <div className="min-h-screen bg-background font-sans">
-      <main className="flex flex-col">
+    <div className="relative z-10 min-h-screen font-sans">
+      <main className="block">
         {/* ====== HERO ====== */}
-        <section className="relative pt-32 pb-20 px-6 overflow-hidden grid-pattern">
+        <section className="relative pt-32 pb-20 px-6 overflow-hidden">
           {/* BG orbs */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/3 -left-40 w-[500px] h-[500px] bg-accent/6 rounded-full blur-[140px]" />
@@ -79,7 +79,7 @@ export default function AgentsPage() {
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
                   
                   {/* Neural Grid Background */}
-                  <div className="absolute inset-0 opacity-20 grid-pattern" />
+                  <div className="absolute inset-0 opacity-10 bg-[linear-gradient(rgba(139,92,246,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.1)_1px,transparent_1px)]" style={{ backgroundSize: '20px 20px' }} />
 
                   <div className="relative w-full h-full flex flex-col items-center justify-between z-10">
                     {/* Top: Brain/Agent */}
@@ -129,7 +129,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== HOW THE AGENT WORKS ====== */}
-        <section className="py-24 px-6" id="how-it-works">
+        <section className="py-24 px-6 relative z-10" id="how-it-works">
           <div className="section-divider mb-24" />
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -205,7 +205,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== AGENT PAYMENTS (MPP) ====== */}
-        <section className="py-24 px-6">
+        <section className="py-24 px-6 relative z-10">
           <div className="section-divider mb-24" />
           <div className="max-w-5xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-16">
@@ -305,7 +305,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== TECH STACK ====== */}
-        <section className="py-24 px-6">
+        <section className="py-24 px-6 relative z-10">
           <div className="section-divider mb-24" />
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -335,7 +335,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== API ROUTES ====== */}
-        <section className="py-24 px-6">
+        <section className="py-24 px-6 relative z-10">
           <div className="section-divider mb-24" />
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
@@ -374,7 +374,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== CTA ====== */}
-        <section className="py-24 px-6">
+        <section className="py-24 px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <div className="glass-card rounded-3xl p-12 md:p-16 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary/5" />
@@ -405,7 +405,7 @@ export default function AgentsPage() {
         </section>
 
         {/* ====== FOOTER (same as home) ====== */}
-        <footer className="py-12 px-6 border-t border-border">
+        <footer className="py-12 px-6 border-t border-border relative z-10">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
               <div>

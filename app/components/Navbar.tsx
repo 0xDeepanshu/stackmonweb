@@ -14,7 +14,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="glass-nav fixed top-0 left-0 right-0 z-50">
+    <nav className="backdrop-blur-lg fixed top-0 left-0 right-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
@@ -34,11 +34,10 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors relative ${
-                pathname === link.href
-                  ? "nav-link-active text-primary-light"
-                  : "text-foreground-muted hover:text-foreground"
-              }`}
+              className={`text-sm font-medium transition-colors relative ${pathname === link.href
+                ? "nav-link-active text-primary-light"
+                : "text-foreground-muted hover:text-foreground"
+                }`}
             >
               {link.label}
             </Link>
@@ -63,19 +62,16 @@ export function Navbar() {
             aria-label="Toggle navigation menu"
           >
             <span
-              className={`block w-5 h-0.5 bg-foreground transition-transform ${
-                mobileOpen ? "rotate-45 translate-y-2" : ""
-              }`}
+              className={`block w-5 h-0.5 bg-foreground transition-transform ${mobileOpen ? "rotate-45 translate-y-2" : ""
+                }`}
             />
             <span
-              className={`block w-5 h-0.5 bg-foreground transition-opacity ${
-                mobileOpen ? "opacity-0" : ""
-              }`}
+              className={`block w-5 h-0.5 bg-foreground transition-opacity ${mobileOpen ? "opacity-0" : ""
+                }`}
             />
             <span
-              className={`block w-5 h-0.5 bg-foreground transition-transform ${
-                mobileOpen ? "-rotate-45 -translate-y-2" : ""
-              }`}
+              className={`block w-5 h-0.5 bg-foreground transition-transform ${mobileOpen ? "-rotate-45 -translate-y-2" : ""
+                }`}
             />
           </button>
         </div>
@@ -89,11 +85,10 @@ export function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className={`block py-3 text-sm font-medium ${
-                pathname === link.href
-                  ? "text-primary-light"
-                  : "text-foreground-muted"
-              }`}
+              className={`block py-3 text-sm font-medium ${pathname === link.href
+                ? "text-primary-light"
+                : "text-foreground-muted"
+                }`}
             >
               {link.label}
             </Link>

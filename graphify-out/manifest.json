@@ -1,0 +1,94 @@
+{
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\eslint.config.mjs": {
+    "mtime": 1777404740.643358,
+    "hash": "6c4307ffa009658f5c97f5629094c0c2"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\next-env.d.ts": {
+    "mtime": 1777406085.7349083,
+    "hash": "29f60a376e12bf72b67d4994fcc84214"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\next.config.ts": {
+    "mtime": 1777404740.643358,
+    "hash": "025f4fcb6024b3524d19492cf7ce54a2"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\postcss.config.mjs": {
+    "mtime": 1777404740.6454134,
+    "hash": "481fac0fdecd70e1821cc30b86030c1a"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\layout.tsx": {
+    "mtime": 1777408137.2757194,
+    "hash": "8748e5f4a5ae40fd892cd7ee92f64227"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\page.tsx": {
+    "mtime": 1778174424.3443503,
+    "hash": "9751d4c8e9151ad29f0abf02f55eabda"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\agents\\page.tsx": {
+    "mtime": 1777917572.1200628,
+    "hash": "9f144569a8bfa1fce6581ebc25d81449"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\components\\Icons.tsx": {
+    "mtime": 1777407126.7672005,
+    "hash": "20736d8e8e928cfa702aec1ffbe06d91"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\components\\Navbar.tsx": {
+    "mtime": 1777407078.1064155,
+    "hash": "29e1a14c230466e07d831972570271f1"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\app\\components\\TileStackSection.tsx": {
+    "mtime": 1778174609.3149674,
+    "hash": "abb029986fe11438571ebe75decc024c"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\3dui.md": {
+    "mtime": 1778173822.9171135,
+    "hash": "a71567c64519618d8e4e6b6e1e6c3b60"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\AGENTS.md": {
+    "mtime": 1777404740.6418436,
+    "hash": "9346a4897ff955555ddedb7bebf77adb"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\CLAUDE.md": {
+    "mtime": 1777404740.6418436,
+    "hash": "771faa62feb60b7de901a397aebb29b0"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\descriptive.md": {
+    "mtime": 1777407801.689188,
+    "hash": "def85c0a69fc6e0e3ba42466dc51480f"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\README.md": {
+    "mtime": 1777404740.6418436,
+    "hash": "9162add00befbcdb432430f405c4ad8d"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\agent-gameplay.png": {
+    "mtime": 1777406941.2076392,
+    "hash": "67aa2651b5bdb0e598b207bb7d92e01e"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\file.svg": {
+    "mtime": 1777404740.6464288,
+    "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\globe.svg": {
+    "mtime": 1777404740.6469448,
+    "hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\hero-game.png": {
+    "mtime": 1777406923.4294505,
+    "hash": "9fcc8310e3ef1a240edc9484a40f914f"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\next.svg": {
+    "mtime": 1777404740.6469448,
+    "hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\payment-network.png": {
+    "mtime": 1777406957.2878177,
+    "hash": "03f82d78aac0e382daf647578a46de86"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\vercel.svg": {
+    "mtime": 1777404740.6469448,
+    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "D:\\Code\\Nextjs\\stackmon\\stackmon_web\\public\\window.svg": {
+    "mtime": 1777404740.6469448,
+    "hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}

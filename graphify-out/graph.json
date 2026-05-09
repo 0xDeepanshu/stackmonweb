@@ -1,0 +1,1233 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "agentic_gaming_stack",
+        "label": "Agentic Gaming Stack",
+        "nodes": [
+          "descriptive_autonomous_ai_agent",
+          "descriptive_solana_mpp",
+          "descriptive_unity_webgl_bridge"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "descriptive.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 8,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "id": "stackmon_web_eslint_config_eslintconfig",
+      "community": 8,
+      "norm_label": "eslintconfig"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "id": "next_env_d_ts",
+      "community": 12,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 9,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "id": "stackmon_web_next_config_nextconfig",
+      "community": 9,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs",
+      "community": 10,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "stackmon_web_postcss_config_config",
+      "community": 10,
+      "norm_label": "config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "id": "app_layout_tsx",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L6",
+      "id": "app_layout_inter",
+      "community": 0,
+      "norm_label": "inter"
+    },
+    {
+      "label": "jetbrainsMono",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L12",
+      "id": "app_layout_jetbrainsmono",
+      "community": 0,
+      "norm_label": "jetbrainsmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L18",
+      "id": "app_layout_metadata",
+      "community": 0,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L46",
+      "id": "app_layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "id": "app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L1",
+      "id": "app_agents_page_tsx",
+      "community": 2,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L18",
+      "id": "agents_page_metadata",
+      "community": 2,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Icons.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L1",
+      "id": "app_components_icons_tsx",
+      "community": 3,
+      "norm_label": "icons.tsx"
+    },
+    {
+      "label": "StackIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L3",
+      "id": "components_icons_stackicon",
+      "community": 1,
+      "norm_label": "stackicon()"
+    },
+    {
+      "label": "BoltIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L13",
+      "id": "components_icons_bolticon",
+      "community": 1,
+      "norm_label": "bolticon()"
+    },
+    {
+      "label": "SparklesIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L21",
+      "id": "components_icons_sparklesicon",
+      "community": 1,
+      "norm_label": "sparklesicon()"
+    },
+    {
+      "label": "TrophyIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L30",
+      "id": "components_icons_trophyicon",
+      "community": 1,
+      "norm_label": "trophyicon()"
+    },
+    {
+      "label": "CpuIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L43",
+      "id": "components_icons_cpuicon",
+      "community": 1,
+      "norm_label": "cpuicon()"
+    },
+    {
+      "label": "WalletIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L53",
+      "id": "components_icons_walleticon",
+      "community": 2,
+      "norm_label": "walleticon()"
+    },
+    {
+      "label": "ShieldIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L63",
+      "id": "components_icons_shieldicon",
+      "community": 3,
+      "norm_label": "shieldicon()"
+    },
+    {
+      "label": "GlobeIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L72",
+      "id": "components_icons_globeicon",
+      "community": 3,
+      "norm_label": "globeicon()"
+    },
+    {
+      "label": "ClockIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L81",
+      "id": "components_icons_clockicon",
+      "community": 1,
+      "norm_label": "clockicon()"
+    },
+    {
+      "label": "ArrowRightIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L90",
+      "id": "components_icons_arrowrighticon",
+      "community": 2,
+      "norm_label": "arrowrighticon()"
+    },
+    {
+      "label": "GamepadIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L98",
+      "id": "components_icons_gamepadicon",
+      "community": 2,
+      "norm_label": "gamepadicon()"
+    },
+    {
+      "label": "CoinsIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L110",
+      "id": "components_icons_coinsicon",
+      "community": 2,
+      "norm_label": "coinsicon()"
+    },
+    {
+      "label": "ZapIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L121",
+      "id": "components_icons_zapicon",
+      "community": 3,
+      "norm_label": "zapicon()"
+    },
+    {
+      "label": "BrainIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L129",
+      "id": "components_icons_brainicon",
+      "community": 2,
+      "norm_label": "brainicon()"
+    },
+    {
+      "label": "LinkIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L138",
+      "id": "components_icons_linkicon",
+      "community": 3,
+      "norm_label": "linkicon()"
+    },
+    {
+      "label": "RepeatIcon()",
+      "file_type": "code",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L147",
+      "id": "components_icons_repeaticon",
+      "community": 3,
+      "norm_label": "repeaticon()"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L1",
+      "id": "app_components_navbar_tsx",
+      "community": 0,
+      "norm_label": "navbar.tsx"
+    },
+    {
+      "label": "pathname",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L8",
+      "id": "components_navbar_pathname",
+      "community": 0,
+      "norm_label": "pathname"
+    },
+    {
+      "label": "[mobileOpen, setMobileOpen]",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L9",
+      "id": "components_navbar_mobileopen_setmobileopen",
+      "community": 0,
+      "norm_label": "[mobileopen, setmobileopen]"
+    },
+    {
+      "label": "links",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L11",
+      "id": "components_navbar_links",
+      "community": 0,
+      "norm_label": "links"
+    },
+    {
+      "label": "TileStackSection.tsx",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L1",
+      "id": "app_components_tilestacksection_tsx",
+      "community": 5,
+      "norm_label": "tilestacksection.tsx"
+    },
+    {
+      "label": "sectionRef",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L10",
+      "id": "components_tilestacksection_sectionref",
+      "community": 5,
+      "norm_label": "sectionref"
+    },
+    {
+      "label": "containerRef",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L11",
+      "id": "components_tilestacksection_containerref",
+      "community": 5,
+      "norm_label": "containerref"
+    },
+    {
+      "label": "ctx",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L14",
+      "id": "components_tilestacksection_ctx",
+      "community": 5,
+      "norm_label": "ctx"
+    },
+    {
+      "label": "tileColors",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L198",
+      "id": "components_tilestacksection_tilecolors",
+      "community": 5,
+      "norm_label": "tilecolors"
+    },
+    {
+      "label": "Interactive Scroll Animation",
+      "file_type": "document",
+      "source_file": "3dui.md",
+      "id": "3dui_interactive_scroll_animation",
+      "community": 6,
+      "norm_label": "interactive scroll animation"
+    },
+    {
+      "label": "Tile Stacking Game",
+      "file_type": "document",
+      "source_file": "3dui.md",
+      "id": "3dui_tile_stack_game",
+      "community": 6,
+      "norm_label": "tile stacking game"
+    },
+    {
+      "label": "GSAP ScrollTrigger",
+      "file_type": "document",
+      "source_file": "3dui.md",
+      "id": "3dui_gsap_scrolltrigger",
+      "community": 6,
+      "norm_label": "gsap scrolltrigger"
+    },
+    {
+      "label": "Solana Micro-Payment Protocol",
+      "file_type": "document",
+      "source_file": "descriptive.md",
+      "id": "descriptive_solana_mpp",
+      "community": 4,
+      "norm_label": "solana micro-payment protocol"
+    },
+    {
+      "label": "Autonomous AI Gameplay Agent",
+      "file_type": "document",
+      "source_file": "descriptive.md",
+      "id": "descriptive_autonomous_ai_agent",
+      "community": 4,
+      "norm_label": "autonomous ai gameplay agent"
+    },
+    {
+      "label": "Unity WebGL Bridge",
+      "file_type": "document",
+      "source_file": "descriptive.md",
+      "id": "descriptive_unity_webgl_bridge",
+      "community": 7,
+      "norm_label": "unity webgl bridge"
+    },
+    {
+      "label": "Redis Session Management",
+      "file_type": "document",
+      "source_file": "descriptive.md",
+      "id": "descriptive_redis_session_management",
+      "community": 7,
+      "norm_label": "redis session management"
+    },
+    {
+      "label": "Hero Section",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "id": "page_hero_section",
+      "community": 11,
+      "norm_label": "hero section"
+    },
+    {
+      "label": "StackMon Brand",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "id": "page_stackmon_title",
+      "community": 13,
+      "norm_label": "stackmon brand"
+    },
+    {
+      "label": "GSAP Timeline Animation",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "id": "tilestacksection_gsap_timeline",
+      "community": 6,
+      "norm_label": "gsap timeline animation"
+    },
+    {
+      "label": "Payment Card Morph",
+      "file_type": "code",
+      "source_file": "app/components/TileStackSection.tsx",
+      "id": "tilestacksection_payment_card_morph",
+      "community": 4,
+      "norm_label": "payment card morph"
+    },
+    {
+      "label": "Agent Mode Dashboard",
+      "file_type": "code",
+      "source_file": "app/agents/page.tsx",
+      "id": "agents_agent_mode",
+      "community": 4,
+      "norm_label": "agent mode dashboard"
+    },
+    {
+      "label": "Long-Polling Architecture",
+      "file_type": "code",
+      "source_file": "app/agents/page.tsx",
+      "id": "agents_long_polling",
+      "community": 7,
+      "norm_label": "long-polling architecture"
+    },
+    {
+      "label": "Agent Gameplay Visualization",
+      "file_type": "image",
+      "source_file": "public/agent-gameplay.png",
+      "id": "agent_gameplay_viz",
+      "community": 4,
+      "norm_label": "agent gameplay visualization"
+    },
+    {
+      "label": "Hero Game Visual",
+      "file_type": "image",
+      "source_file": "public/hero-game.png",
+      "id": "hero_game_viz",
+      "community": 11,
+      "norm_label": "hero game visual"
+    },
+    {
+      "label": "Payment Network Visual",
+      "file_type": "image",
+      "source_file": "public/payment-network.png",
+      "id": "payment_network_viz",
+      "community": 4,
+      "norm_label": "payment network visual"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "stackmon_web_eslint_config_eslintconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "next_config_ts",
+      "target": "stackmon_web_next_config_nextconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "postcss_config_mjs",
+      "target": "stackmon_web_postcss_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_components_navbar_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_inter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_jetbrainsmono",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_tilestacksection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_icons_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_stackicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_bolticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_sparklesicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_trophyicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_cpuicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_walleticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_gamepadicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_arrowrighticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_shieldicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_globeicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_clockicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page_tsx",
+      "target": "components_icons_coinsicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "app_components_icons_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_cpuicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_bolticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_shieldicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_walleticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_clockicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_repeaticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_brainicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_linkicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_arrowrighticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_gamepadicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_coinsicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/agents/page.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_agents_page_tsx",
+      "target": "agents_page_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_stackicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_bolticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_sparklesicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_trophyicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_cpuicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_walleticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_shieldicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_globeicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_clockicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_arrowrighticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_gamepadicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_coinsicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_zapicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_brainicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_linkicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Icons.tsx",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_repeaticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_pathname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_mobileopen_setmobileopen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_sectionref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_containerref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_ctx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TileStackSection.tsx",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_tilecolors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "3dui.md",
+      "source": "3dui_interactive_scroll_animation",
+      "target": "3dui_gsap_scrolltrigger"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "3dui.md",
+      "source": "3dui_tile_stack_game",
+      "target": "3dui_interactive_scroll_animation"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "app/components/TileStackSection.tsx",
+      "source": "tilestacksection_gsap_timeline",
+      "target": "3dui_interactive_scroll_animation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "descriptive.md",
+      "source": "descriptive_solana_mpp",
+      "target": "descriptive_autonomous_ai_agent"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/components/TileStackSection.tsx",
+      "source": "tilestacksection_payment_card_morph",
+      "target": "descriptive_solana_mpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/payment-network.png",
+      "source": "payment_network_viz",
+      "target": "descriptive_solana_mpp"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "descriptive.md",
+      "source": "descriptive_autonomous_ai_agent",
+      "target": "agents_agent_mode"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "descriptive.md",
+      "source": "descriptive_unity_webgl_bridge",
+      "target": "descriptive_redis_session_management"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/agents/page.tsx",
+      "source": "agents_long_polling",
+      "target": "descriptive_unity_webgl_bridge"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/page.tsx",
+      "source": "page_hero_section",
+      "target": "hero_game_viz"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/agents/page.tsx",
+      "source": "agents_agent_mode",
+      "target": "agent_gameplay_viz"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "agentic_gaming_stack",
+      "label": "Agentic Gaming Stack",
+      "nodes": [
+        "descriptive_autonomous_ai_agent",
+        "descriptive_solana_mpp",
+        "descriptive_unity_webgl_bridge"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "descriptive.md"
+    }
+  ],
+  "built_at_commit": "54692ac8a079aeed11df8769ba0896072bd42965"
+}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import TileStackSection from "./components/TileStackSection";
 import {
   StackIcon,
   BoltIcon,
@@ -17,10 +18,10 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background font-sans">
-      <main className="flex flex-col">
+    <div className="relative z-10 min-h-screen font-sans">
+      <main className="block">
         {/* ====== HERO SECTION ====== */}
-        <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 pt-24 pb-20 grid-pattern">
+        <section className="relative z-10 min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 pt-24 pb-20">
           {/* Background Orbs */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-primary/8 rounded-full blur-[120px]" />
@@ -101,10 +102,11 @@ export default function Home() {
           </div>
         </section>
 
-
+        {/* ====== TILE STACK SCROLL ANIMATION ====== */}
+        <TileStackSection />
 
         {/* ====== HOW IT WORKS ====== */}
-        <section className="py-24 px-6 relative" id="how-it-works">
+        <section className="py-24 px-6 relative z-10" id="how-it-works">
           <div className="section-divider mb-24" />
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -156,7 +158,7 @@ export default function Home() {
         </section>
 
         {/* ====== GAME FEATURES ====== */}
-        <section className="py-24 px-6 relative overflow-hidden">
+        <section className="py-24 px-6 relative z-10 overflow-hidden">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-16">
               {/* Left content */}
@@ -220,7 +222,7 @@ export default function Home() {
         </section>
 
         {/* ====== PAYMENTS / x402 SECTION ====== */}
-        <section className="py-24 px-6 relative" id="payments">
+        <section className="py-24 px-6 relative z-10" id="payments">
           <div className="section-divider mb-24" />
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col-reverse lg:flex-row items-center gap-16">
@@ -228,7 +230,7 @@ export default function Home() {
               <div className="flex-1">
                 <div className="relative w-full aspect-video rounded-2xl glass-card overflow-hidden glow-secondary flex items-center justify-center border border-secondary/20">
                   <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 via-transparent to-primary/10" />
-                  
+
                   <div className="relative w-full h-full flex items-center justify-center">
                     {/* Center Node */}
                     <div className="absolute z-20 w-20 h-20 rounded-full glass flex items-center justify-center animate-pulse-glow border border-secondary/40 shadow-[0_0_30px_rgba(0,245,212,0.4)]">
@@ -308,7 +310,7 @@ export default function Home() {
         </section>
 
         {/* ====== MCP + AGENT TEASER ====== */}
-        <section className="py-24 px-6 relative" id="agents">
+        <section className="py-24 px-6 relative z-10" id="agents">
           <div className="section-divider mb-24" />
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-16">
@@ -397,7 +399,7 @@ export default function Home() {
         </section>
 
         {/* ====== STATS ====== */}
-        <section className="py-20 px-6">
+        <section className="py-20 px-6 relative z-10">
           <div className="section-divider mb-20" />
           <div className="max-w-4xl mx-auto">
             <div className="glass-card rounded-3xl p-12 flex flex-wrap justify-center gap-12 md:gap-16">
@@ -419,7 +421,7 @@ export default function Home() {
         </section>
 
         {/* ====== CTA ====== */}
-        <section className="py-24 px-6">
+        <section className="py-24 px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <div className="glass-card rounded-3xl p-12 md:p-16 relative overflow-hidden">
               {/* Background glow */}
@@ -457,7 +459,7 @@ export default function Home() {
         </section>
 
         {/* ====== FOOTER ====== */}
-        <footer className="py-12 px-6 border-t border-border">
+        <footer className="py-12 px-6 border-t border-border relative z-10">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
               {/* Logo */}

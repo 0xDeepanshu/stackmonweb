@@ -1,0 +1,1143 @@
+{
+  "nodes": [
+    {
+      "id": "eslint_config_mjs",
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "stackmon_web_eslint_config_eslintconfig",
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "next_env_d_ts",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_ts",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "stackmon_web_next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "postcss_config_mjs",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "stackmon_web_postcss_config_config",
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_sora",
+      "label": "sora",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "app_layout_hanken",
+      "label": "hanken",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "app_layout_jetbrains",
+      "label": "jetbrains",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "app_layout_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L54"
+    },
+    {
+      "id": "app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_agents_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_page_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "app_components_icons_tsx",
+      "label": "Icons.tsx",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_icons_stackicon",
+      "label": "StackIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_icons_bolticon",
+      "label": "BoltIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "components_icons_sparklesicon",
+      "label": "SparklesIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "components_icons_trophyicon",
+      "label": "TrophyIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L30"
+    },
+    {
+      "id": "components_icons_cpuicon",
+      "label": "CpuIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L43"
+    },
+    {
+      "id": "components_icons_walleticon",
+      "label": "WalletIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L53"
+    },
+    {
+      "id": "components_icons_shieldicon",
+      "label": "ShieldIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L63"
+    },
+    {
+      "id": "components_icons_globeicon",
+      "label": "GlobeIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L72"
+    },
+    {
+      "id": "components_icons_clockicon",
+      "label": "ClockIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L81"
+    },
+    {
+      "id": "components_icons_arrowrighticon",
+      "label": "ArrowRightIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L90"
+    },
+    {
+      "id": "components_icons_gamepadicon",
+      "label": "GamepadIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L98"
+    },
+    {
+      "id": "components_icons_coinsicon",
+      "label": "CoinsIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L110"
+    },
+    {
+      "id": "components_icons_zapicon",
+      "label": "ZapIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L121"
+    },
+    {
+      "id": "components_icons_brainicon",
+      "label": "BrainIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L129"
+    },
+    {
+      "id": "components_icons_linkicon",
+      "label": "LinkIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L138"
+    },
+    {
+      "id": "components_icons_repeaticon",
+      "label": "RepeatIcon()",
+      "file_type": "code",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L147"
+    },
+    {
+      "id": "app_components_navbar_tsx",
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_navbar_pathname",
+      "label": "pathname",
+      "file_type": "code",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "components_navbar_mobileopen_setmobileopen",
+      "label": "[mobileOpen, setMobileOpen]",
+      "file_type": "code",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "components_navbar_links",
+      "label": "links",
+      "file_type": "code",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "app_components_smoothscrollprovider_tsx",
+      "label": "SmoothScrollProvider.tsx",
+      "file_type": "code",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_smoothscrollprovider_smoothscrollprovider",
+      "label": "SmoothScrollProvider()",
+      "file_type": "code",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "app_components_tilestacksection_tsx",
+      "label": "TileStackSection.tsx",
+      "file_type": "code",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_tilestacksection_sectionref",
+      "label": "sectionRef",
+      "file_type": "code",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "components_tilestacksection_containerref",
+      "label": "containerRef",
+      "file_type": "code",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_tilestacksection_ctx",
+      "label": "ctx",
+      "file_type": "code",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "components_tilestacksection_tilecolors",
+      "label": "tileColors",
+      "file_type": "code",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "eslint_config_mjs",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "core_web_vitals",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "typescript",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "stackmon_web_eslint_config_eslintconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "next_env_d_ts",
+      "target": "d_code_nextjs_stackmon_stackmon_web_next_types_routes_d_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "next-env.d.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "next_config_ts",
+      "target": "next",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "next_config_ts",
+      "target": "stackmon_web_next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "postcss_config_mjs",
+      "target": "stackmon_web_postcss_config_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "google",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "d_code_nextjs_stackmon_stackmon_web_app_globals_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_components_navbar_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "components_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_components_smoothscrollprovider_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_sora",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_hanken",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_jetbrains",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.tsx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "app_components_tilestacksection_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "app_components_icons_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_stackicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_bolticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_sparklesicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_trophyicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_cpuicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_walleticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_gamepadicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_arrowrighticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_shieldicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_globeicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_clockicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "components_icons_coinsicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "app_components_icons_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_cpuicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_bolticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_shieldicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_walleticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_clockicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_repeaticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_brainicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_linkicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_arrowrighticon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_gamepadicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "components_icons_coinsicon",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_agents_page_tsx",
+      "target": "agents_page_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\agents\\page.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_stackicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_bolticon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_sparklesicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_trophyicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_cpuicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_walleticon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_shieldicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_globeicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_clockicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_arrowrighticon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_gamepadicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_coinsicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_zapicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_brainicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_linkicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_icons_tsx",
+      "target": "components_icons_repeaticon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Icons.tsx",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_pathname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_mobileopen_setmobileopen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_links",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\Navbar.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_smoothscrollprovider_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_smoothscrollprovider_tsx",
+      "target": "lenis",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_smoothscrollprovider_tsx",
+      "target": "gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_smoothscrollprovider_tsx",
+      "target": "scrolltrigger",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_smoothscrollprovider_tsx",
+      "target": "components_smoothscrollprovider_smoothscrollprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\SmoothScrollProvider.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "scrolltrigger",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_sectionref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_containerref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_ctx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "app_components_tilestacksection_tsx",
+      "target": "components_tilestacksection_tilecolors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\components\\TileStackSection.tsx",
+      "source_location": "L199",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

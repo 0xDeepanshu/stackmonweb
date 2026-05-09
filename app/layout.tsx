@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Sora, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 import { Navbar } from "./components/Navbar";
+import SmoothScrollProvider from "./components/SmoothScrollProvider";
 
-const inter = Inter({
-  variable: "--font-inter",
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const hanken = Hanken_Grotesk({
+  variable: "--font-hanken",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
   subsets: ["latin"],
   display: "swap",
@@ -51,11 +59,34 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${sora.variable} ${hanken.variable} ${jetbrains.variable} h-full antialiased dark`}
     >
-      <body className="min-h-full flex flex-col">
-        <Navbar />
-        {children}
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        {/* Fixed cinematic background — hero image with Ethereal Tech dark mode styling */}
+        <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden bg-background" aria-hidden="true">
+          <Image
+            src="/hero/screen.png"
+            alt="Hero Game Background"
+            fill
+            className="object-cover object-center opacity-100 mix-blend-screen"
+            priority
+          />
+          {/* Ethereal Tech Overlays - Reduced for better visibility */}
+          <div className="absolute inset-0 bg-background/40" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
+
+          {/* Lumina Orbs for subtle glowing accents */}
+          <div className="lumina-orb lumina-orb--primary" />
+          <div className="lumina-orb lumina-orb--secondary" />
+          <div className="lumina-orb lumina-orb--accent" />
+        </div>
+
+        <SmoothScrollProvider>
+          <div className="relative z-10 flex flex-col min-h-screen">
+            <Navbar />
+            {children}
+          </div>
+        </SmoothScrollProvider>
       </body>
     </html>
   );
